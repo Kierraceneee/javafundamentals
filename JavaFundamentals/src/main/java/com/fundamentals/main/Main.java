@@ -5,12 +5,13 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello Java");
         houseExample();
+        basicStatements();
     }
 
     // Single Comment
-    /* Buttholes only exist within the context of our minds.
-    Everything that's ever been told to us was a lie.
-    * */
+    /* Multi-line
+        Comment
+    */
 
     public static void houseExample() {
         House myHouse = new House();
@@ -21,5 +22,15 @@ public class Main {
         myHouse.totalWindows = 30;
         System.out.println(myHouse.entranceDoorColor);
     }
+    static void basicStatements() {
+        System.out.println("This is my first sentence.");
+        System.out.println("I am new to Java.");
+        System.out.println("This Java course is cool.");
+        System.out.println("I am learning stuff every day.");
+    }
 
 }
+
+
+
+

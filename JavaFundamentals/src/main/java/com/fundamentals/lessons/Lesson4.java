@@ -118,8 +118,8 @@ public class Lesson4 {
         //  myLesson4.howlongAmI(msg);
         // String response = myLesson4.changeMyMessage("two");
         // System.out.println(response);
-        // System.out.println(myLesson4.favoriteThings("Orange", "Pizza"));
-        System.out.println(myLesson4.escapeMe());
+         System.out.println(myLesson4.favoriteThings("Orange", "Pizza"));
+         System.out.println(myLesson4.escapeMe());
     }
 
 

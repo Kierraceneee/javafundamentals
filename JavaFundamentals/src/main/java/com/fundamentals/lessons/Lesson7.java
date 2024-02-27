@@ -76,14 +76,6 @@ public class Lesson7 {
 
 
 
-
-
-
-
-
-
-
-
     public static void main(String[] args ){
         Lesson7 myLesson = new Lesson7();
         //myLesson.amIGreater(10,5);

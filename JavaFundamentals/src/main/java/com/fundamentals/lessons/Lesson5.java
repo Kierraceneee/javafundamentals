@@ -110,8 +110,8 @@ public class Lesson5 {
         // System.out.println(myLesson.usingUnderscores);
         // System.out.println(myLesson.myBinary);
         // System.out.println(myLesson.myHexadecimal);
-        myLesson.convertDirectly(myLesson.myLong);
-        myLesson.convertExplicitly();
+        //myLesson.convertDirectly(myLesson.myLong);
+        //myLesson.convertExplicitly();
     }
 
 

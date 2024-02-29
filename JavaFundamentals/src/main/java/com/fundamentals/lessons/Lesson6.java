@@ -140,7 +140,7 @@ public class Lesson6 {
         //myLesson.justTheRemainder(7);
         //double total = myLesson.mathOrder();
         //System.out.println(total);
-        //myLesson.addSomeNumbers();
+        myLesson.addSomeNumbers();
         // myLesson.demoAssignment(20, 6);
         //myLesson.demoRelationalEquals(225, 58);
         //myLesson.demoRelationalGreater(17, 38);
@@ -148,7 +148,7 @@ public class Lesson6 {
         //myLesson.demoLogicalAnd(5 ,10, 15);
         //myLesson.demoLogicalOr(10, 10, 15);
         //myLesson.makeMeIncrease();
-        myLesson.makeMeDecrease();
+        //myLesson.makeMeDecrease();
     }
 
 

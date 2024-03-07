@@ -1,10 +1,10 @@
 package com.fundamentals.main;
 
 public class House {
-    private String entranceDoorColor;
-    private String foundationType;
-    private String roofStyle;
-    private int totalWindows;
+    protected String entranceDoorColor;
+    protected String foundationType;
+    protected String roofStyle;
+    protected int totalWindows;
 
     public House() {
         this("Cinder Blocks", "Shingles");
@@ -38,12 +38,22 @@ public class House {
     public int getTotalWindows(){
         return totalWindows;
     }
-    public void doorFunction() {
-        System.out.println("This door opens");
+    public void doorFunction(){
+        System.out.println("This door opens.");
+    }
+    /* Overloaded method - Can only happen when the method
+    * signature is different between the defined method by name,
+    * The signature of a method is the name + the data type is not
+    * part of the signature for overloading*/
+    public void doorFunction(String doorColor) {
+        System.out.println("This" + doorColor + " door opens");
+
     }
 
     public static void main(String[] args) {
-
+        House myHouse = new House();
+        myHouse.doorFunction();
+        myHouse.doorFunction(myHouse.getEntranceDoorColor());
     }
 }
 

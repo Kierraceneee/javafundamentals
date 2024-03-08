@@ -1,4 +1,4 @@
-package com.fundamentals.Practice;
+package com.fundamentals.practice;
 
 public class BottlesOfBeer {
 

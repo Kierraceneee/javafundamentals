@@ -30,6 +30,7 @@ public class Lesson12 {
     public void setLastName(){
         this.lastName = lastName;
     }
+
     public String getLastName(){
         return lastName;
     }

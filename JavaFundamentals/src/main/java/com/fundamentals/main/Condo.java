@@ -10,11 +10,8 @@ public class Condo extends House{
         // CONSTRUCTOR
         public Condo(String foundationType, String doorColor, String roofStyle,
                      int totalWindows, String balconyType){
+            super(foundationType, doorColor, roofStyle, totalWindows);
             this.balconyType = balconyType;
-            this.foundationType = foundationType;
-            this.entranceDoorColor = doorColor;
-            this.roofStyle = roofStyle;
-            this.totalWindows = totalWindows;
         }
 
         public String getBalconyType(){
@@ -23,10 +20,17 @@ public class Condo extends House{
         public void maintenance(){
             System.out.println("Maintenance has been called");
         }
+        @Override
+        public void doorFunction(){
+            super.doorFunction(); // executes the house version
+            System.out.println("The condo door is locked.");
+        }
         public static void main(String[] args){
             Condo myCondo = new Condo("Railed");
             System.out.println(myCondo.getEntranceDoorColor());
             System.out.println(myCondo.getFoundationType());
+            myCondo.doorFunction();
+            myCondo.doorFunction("Green");
         }
     }
 

@@ -97,9 +97,10 @@ public class Lesson9 { // START OF CLASS
             //myLesson.basicIntArray();
             //myLesson.basicStringArray();
             //myLesson.enhancedForLoop();
+            myLesson.aTwoDimensionalArray();
             //myLesson.anEnhanced2DArray();
             //myLesson.aThreeDArray();
-            myLesson.aJaggedArray();
+            //myLesson.aJaggedArray();
         }
 
 

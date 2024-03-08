@@ -82,7 +82,7 @@ public class Lesson8 { // START OF CLASS
         //myLesson.countdown();
         //myLesson.aDoWhileLoop();
         //myLesson.aForLoop(14);
-        myLesson.multiLoop(5, 3);
+        //myLesson.multiLoop(5, 3);
         myLesson.branchingExample();
     }
 

@@ -1,6 +1,6 @@
 package com.fundamentals.practice;
 // Lesson 15 Abstract example
-public abstract class Telephone {
+public abstract class Telephone implements EndCallInterface{
     //fields
     private final int volume;
     private final int[] numberKeys;

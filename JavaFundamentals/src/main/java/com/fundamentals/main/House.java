@@ -7,7 +7,7 @@ public class House {
     protected final int totalWindows;
 
     public House() {
-        this("Cinder Blocks", "Shingles");
+        this("Cinder Blocks", "Grey");
     }
 
     public House(String foundationType, String doorColor) {
@@ -48,6 +48,14 @@ public class House {
     public void doorFunction(String doorColor) {
         System.out.println("This" + doorColor + " door opens");
 
+    }
+
+    @Override
+    public String toString(){
+        return "House - Foundation: " + getFoundationType() +
+                " Roof Style: " +getRoofStyle()
+                + " Entrance Door Color: " + getEntranceDoorColor() + " Number of Windows: " +
+                getTotalWindows();
     }
 
     public static void main(String[] args) {

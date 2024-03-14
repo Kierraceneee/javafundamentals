@@ -53,12 +53,18 @@ public class Television {
     }
 
     //TASK THREE
-    public void theTVisOn(){
+    public void turnOn(){
         System.out.println("The " + screenSize + " inch TV is on.");
+    }
+
+    // LAB FOR INHERITANCE: TASK TWO
+
+    public void turnOn(String screenSize){
+        System.out.println("The " + screenSize + " inch TV is off.");
     }
 
     public static void main(String[] args){
     Television myLab = new Television(32, 331);
-    myLab.theTVisOn();
+    myLab.turnOn();
     }
 }
